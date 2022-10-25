@@ -21,3 +21,5 @@ for article in articles:
             title = article.find(class_="tm-article-snippet__title-link").find('span').text
             search_time = article.find("time").get("datetime")
             print(f'{search_time} - {title} - https://habr.com{url} ')
+
+
